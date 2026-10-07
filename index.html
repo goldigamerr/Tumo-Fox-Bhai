@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Free Diamond - Video Portal</title>
+  <title>Macro Space Panel</title>
 
   <style>
     * {
@@ -13,8 +13,7 @@
       box-sizing: border-box;
     }
 
-    html,
-    body {
+    html, body {
       width: 100%;
       min-height: 100%;
     }
@@ -31,13 +30,13 @@
       padding: 18px 20px;
       text-align: center;
       background: linear-gradient(135deg, #87CEEB, #5FB9E0);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 10px rgba(0,0,0,.3);
     }
 
     header h1 {
       font-size: 28px;
       font-weight: 700;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      text-shadow: 2px 2px 4px rgba(0,0,0,.2);
     }
 
     .container {
@@ -68,7 +67,7 @@
       overflow: hidden;
       background: #171717;
       border-radius: 15px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 10px 30px rgba(0,0,0,.5);
     }
 
     .video-container video {
@@ -95,7 +94,7 @@
       user-select: none;
       touch-action: manipulation;
 
-      background: rgba(0, 0, 0, 0.40);
+      background: rgba(0,0,0,.4);
     }
 
     .play-button {
@@ -109,22 +108,22 @@
 
       padding-left: 5px;
 
-      background: rgba(0, 0, 0, 0.72);
+      background: rgba(0,0,0,.72);
 
       font-size: 38px;
 
-      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 5px 25px rgba(0,0,0,.5);
 
-      transition: 0.15s ease;
+      transition: .15s ease;
     }
 
     .play-overlay:hover .play-button {
       transform: scale(1.08);
-      background: rgba(0, 0, 0, 0.88);
+      background: rgba(0,0,0,.88);
     }
 
     .play-overlay:active .play-button {
-      transform: scale(0.95);
+      transform: scale(.95);
     }
 
     .play-text {
@@ -133,7 +132,7 @@
 
       border-radius: 20px;
 
-      background: rgba(0, 0, 0, 0.78);
+      background: rgba(0,0,0,.78);
 
       font-size: 13px;
     }
@@ -156,7 +155,7 @@
         #0b0b0b
       );
 
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+      box-shadow: 0 12px 40px rgba(0,0,0,.8);
     }
 
     .app-card::before {
@@ -281,7 +280,7 @@
       );
 
       box-shadow:
-        0 8px 25px rgba(0, 255, 136, 0.4);
+        0 8px 25px rgba(0,255,136,.4);
 
       font-size: 18px;
       font-weight: 600;
@@ -290,14 +289,14 @@
 
       cursor: pointer;
 
-      transition: 0.3s;
+      transition: .3s;
     }
 
     .install-btn:hover {
       transform: translateY(-2px);
 
       box-shadow:
-        0 12px 30px rgba(0, 255, 136, 0.6);
+        0 12px 30px rgba(0,255,136,.6);
     }
 
     .footer-note {
@@ -351,7 +350,7 @@
 <body>
 
   <header>
-    <h1>Free Diamond</h1>
+    <h1>Macro Space Panel</h1>
   </header>
 
   <main class="container">
@@ -369,7 +368,7 @@
           controls
         >
           <source
-            src="https://videotourl.com/videos/1787381079259-5b57c6a9-e7a2-4571-93f6-b77f6d1b4c69.mp4"
+            src="https://videotourl.com/videos/1787380474454-f1c24e98-cdb7-4dfb-a82e-1557a57c16da.mp4"
             type="video/mp4"
           >
 
@@ -400,8 +399,8 @@
       <div class="app-info">
 
         <img
-          src="https://videotourl.com/images/1787391304049-80a774b1-b784-420c-8e99-99822a3842a5.png"
-          alt="Free Diamond"
+          src="https://i.postimg.cc/1thTvbSs/file-00000000b7d481f7ae7b6a2fd50eb6de.png"
+          alt="Macro Space Panel"
           class="app-icon"
         >
 
@@ -420,13 +419,13 @@
           </div>
 
           <h3>
-            Free Diamond
+            Macro Space Panel
           </h3>
 
           <p>
-            FREE DIAMOND
+            MACRO SPACE PANEL
             <br>
-            APPLICATION
+            UNLIMITED ACCESS
           </p>
 
           <div class="stars">
@@ -437,13 +436,14 @@
 
       </div>
 
+      <!-- UPDATED INSTALL LINK -->
       <a
         class="install-btn"
-        href="https://1024terabox.com/s/1wiN7utmcPbCd2tX9f5swXA"
+        href="https://terasharelink.com/s/1tXpsRRNhxtUhY5BmNvigsw"
         target="_blank"
         rel="noopener noreferrer"
       >
-        ⬇ APPLICATION ⬇
+        ⬇ INSTALL ⬇
       </a>
 
     </section>
@@ -476,11 +476,11 @@
 
         }).catch(function(error) {
 
-          console.log(
-            "Playback with sound blocked:",
-            error
-          );
+          console.log("Playback with sound blocked:", error);
 
+          /*
+           * Mobile browser sound restriction fallback.
+           */
           video.muted = true;
 
           video.play().then(function() {
@@ -489,10 +489,7 @@
 
           }).catch(function(error2) {
 
-            console.log(
-              "Video playback failed:",
-              error2
-            );
+            console.log("Video playback failed:", error2);
 
           });
 
